@@ -1,0 +1,24 @@
+header h1{
+	display: flex;
+	justify-content: center;
+	text-decoration: underline #aff;
+	background: skyblue;
+	
+}
+.input{
+	display: flex;
+	justify-content: center;
+	margin: 1rem;
+}
+.botao{
+	width: 15rem;
+	margin-left: 18rem;
+	border-width: 3px;
+	border-color: red;
+	border-radius: 15px;
+}
+.form{
+	margin-top: 5px;
+	background: seagreen;
+
+}

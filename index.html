@@ -1,0 +1,64 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./teste.css">
+	<title>Formulario</title>
+</head>
+<body>
+
+	<header>
+		<h1>Apresento a vocês esse formulario de qualidade duvidosa</h1>
+	</header>
+
+	<div class="form">
+		<div class="esquerda">
+			<div class="input">
+				<label for="nome">Nome Completo:</label> 
+				<input type="text" name="nome" class="Linput">
+			</div>
+
+			<div class="input">
+				<label for="mail">email:</label>
+				<input type="email" name="mail" class="Linput">
+			</div>
+		</div>
+
+		<div class="direita">
+			<div class="input">
+				<label for="data">Data de nascimento:</label>
+				<input type="date" name="data" class="Linput">
+			</div>
+
+			<div class="input">
+					<label for="usuario">Usuario:</label>
+				<input type="text" name="usuario" class="Linput">
+			</div>
+
+			<div class="input">
+				<label for="senha">Senha:</label>
+				<input type="password" id="senha" name="senha" class="Linput"><br>
+				<label for="senha">Repita a senha:</label>
+				<input type="password" id="senha" name="senha" class="Linput"><br>
+			</div>
+		</div>
+
+		<div class="input">
+			<label for="lista">Qual sua ocupação?</label>
+			<input list="ocupação" >
+            <datalist id="ocupação">
+            	    <option value="Professor">
+                	<option value="Diretor">
+               	    <option value="Pai/Mãe">
+                	<option value="Aluno">
+            </datalist><br>
+        </div>
+
+        <div class="botao">
+            <input type="submit" name="" class="botao">
+		</div>
+
+	</div>
+
+</body>
+</html>
