@@ -3,6 +3,9 @@ header h1{
 	justify-content: center;
 	text-decoration: underline #aff;
 	background: skyblue;
+	margin: 0px;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
 	
 }
 .input{
@@ -13,12 +16,16 @@ header h1{
 .botao{
 	width: 15rem;
 	margin-left: 18rem;
-	border-width: 3px;
-	border-color: red;
-	border-radius: 15px;
+	border-width: 0.2rem;
+	border-color: indianred;
+	border-radius: 1rem;
 }
 .form{
-	margin-top: 5px;
-	background: seagreen;
+	border-bottom-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	background: skyblue;
 
+}
+body{
+	margin: 0px;
 }
